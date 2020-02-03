@@ -1,0 +1,78 @@
+body {
+	background-color: grb (230, 230, 230); 
+	color: rgb(40, 40, 40);
+	font-family: Courier; 
+	font-size: 16px;
+	text-align: center;
+}
+h1 { 
+	color: #192965;
+	font weight: bold;
+	font-weight: 900;
+	font-size: 40px;
+	font-family: 'EB Garamond', serif;
+
+}
+h2, h3 {
+		color: black;
+		font-weight: bold; 
+		font-weight: 400;
+		font-size: 22px;
+		font-family: 'Lobster', cursive;	
+}
+a {
+	text-decoration: none;
+	color: green;
+}
+a:hover {
+	color: black;
+}
+
+@media (max-width: 960px) {
+	.container {
+		width: 700px;
+		margin: 40px auto;
+	}
+}
+
+@media (max-width: 720px) {
+	.container {
+		width: 500px;
+		margin: 20px;
+	}
+}
+@media (max-width: 540px) {
+	.container {
+		width: 300px;
+		margin:	10px;
+	}
+}
+.card-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+.image-circle {
+	border-radius: 50%;
+}
+.btn-green {
+	background-color: black;
+	color: green;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+#introduction p {
+	margin-bottom: 40px;
+}
